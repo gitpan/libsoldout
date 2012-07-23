@@ -85,6 +85,7 @@ about cdiscount markdown extensions.
 =head1 AUTHOR
 
 Rodrigo OSORIO, E<lt>rodrigo@bebik.netE<gt> for this perl module
+
 Natacha Porte, E<lt>natbsd@instinctive.euE<gt> for libsoldout code
 
 =head1 COPYRIGHT AND LICENSE
