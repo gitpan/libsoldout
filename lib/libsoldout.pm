@@ -1,6 +1,6 @@
 package libsoldout;
 
-use 5.012004;
+use 5.010001;
 use strict;
 use warnings;
 
@@ -25,7 +25,7 @@ our @EXPORT = qw(
 	
 );
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 require XSLoader;
 XSLoader::load('libsoldout', $VERSION);
@@ -38,7 +38,8 @@ __END__
 
 =head1 NAME
 
-libsoldout - Perl extension  for libsoldout, a flexible library to parse markdown language
+libsoldout - Perl extension  for libsoldout, a flexible library to parse markdow
+n language
 
 =head1 SYNOPSIS
 
@@ -60,16 +61,16 @@ libsoldout - Perl extension  for libsoldout, a flexible library to parse markdow
 
 =head1 DESCRIPTION
 
-  This module provies a simple access to libsoldout, a simple, fast 
-  and flexible markdown parser. This initial provides functions to 
-  convert three makrdown  variants to  HTML. 
+  This module provies a simple access to libsoldout, a simple, fast
+  and flexible markdown parser. This initial provides functions to
+  convert three makrdown  variants to  HTML.
 
   markdown2html : Converts a strict markdown text in HTML
 
   markdown2discount_html :  Converts a markdown text with discount
                   extensions to HTML
 
-  markdown2nat_html : Converts a markdown text with discount and 
+  markdown2nat_html : Converts a markdown text with discount and
                  natacha extensions to HTML
 
 
@@ -98,3 +99,4 @@ at your option, any later version of Perl 5 you may have available.
 
 
 =cut
+

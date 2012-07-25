@@ -21,9 +21,6 @@ To install this module type the following:
    make test
    make install
 
-DEPENDENCIES
-
-none
 
 COPYRIGHT AND LICENCE
 
@@ -32,7 +29,7 @@ Put the correct copyright and licence information here.
 Copyright (C) 2012 by Rodrigo OSORIO 
 
 This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.12.4 or,
+it under the same terms as Perl itself, either Perl version 5.10.1 or,
 at your option, any later version of Perl 5 you may have available.
 
 
